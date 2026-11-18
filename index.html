@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>شبابيك كافيه | Shababik Cafe</title>
+<meta name="description" content="شبابيك كافيه: أراجيل وعصائر وقهوة وحلويات، مفتوح 24 ساعة قرب البوابة الشمالية للجامعة الأردنية. المنيو كامل بالأسعار.">
+<meta property="og:title" content="شبابيك كافيه | Shababik Cafe">
+<meta property="og:description" content="أراجيل وعصائر وقهوة وحلويات، مفتوح 24 ساعة قرب البوابة الشمالية للجامعة الأردنية. المنيو كامل بالأسعار.">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;--bg:#f6efe6;--ink:#3a2418;--card:#fbf6ee;--g:#9a5a3c;--red:#b02a2a;--line:rgba(154,90,60,.3);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1512;--ink:#f1e6d8;--card:#281c17;--g:#dba98d;--red:#ff7a6e;--line:rgba(219,169,141,.3)}}
+:root[data-theme="dark"]{--bg:#1d1512;--ink:#f1e6d8;--card:#281c17;--g:#dba98d;--red:#ff7a6e;--line:rgba(219,169,141,.3)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:Cairo,Tahoma,sans-serif;line-height:1.75;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.j{font-family:Jost,Cairo,sans-serif;font-weight:500}
+.hero{position:relative;text-align:center;padding:78px 6% 56px;margin:14px;border:1.5px solid var(--g);outline:1px solid var(--line);outline-offset:6px}
+.logo{font-family:Jost,sans-serif;font-weight:300;font-size:clamp(2.6rem,13vw,6.5rem);letter-spacing:.06em;color:var(--g);line-height:1.1;direction:ltr}
+.sub{letter-spacing:.35em;font-size:.72rem;color:var(--g);direction:ltr;margin-top:2px}
+.wins{display:flex;gap:14px;justify-content:center;margin:30px 0 8px}
+.wn{width:min(26vw,118px);text-align:center;font-size:.85rem;color:var(--g)}
+.wn i{display:block;aspect-ratio:3/4;border:3px solid var(--g);position:relative;margin-bottom:6px}
+.wn i:before,.wn i:after{content:"";position:absolute;background:var(--g)}
+.wn i:before{left:50%;top:0;bottom:0;width:2px}.wn i:after{top:50%;left:0;right:0;height:2px}
+.d1 i{background:radial-gradient(circle at 70% 70%,#fff3cf 0 11%,transparent 12%),linear-gradient(#f9d7bd,#f2a37f)}
+.d2 i{background:radial-gradient(circle at 30% 28%,#fff9dc 0 11%,transparent 12%),linear-gradient(#a9d6ee,#eaf5f6)}
+.d3 i{background:radial-gradient(circle at 68% 26%,#fff 0 8%,transparent 9%),radial-gradient(circle at 25% 60%,#fff 0 2%,transparent 3%),radial-gradient(circle at 40% 20%,#fff 0 2%,transparent 3%),linear-gradient(#1b2342,#3d4272)}
+.tag{font-size:1.3rem;font-weight:800;margin-top:14px}
+.badge{display:inline-block;margin-top:8px;background:var(--red);color:#fff;border-radius:30px;padding:3px 18px;font-weight:800;font-size:.9rem}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.btn{padding:11px 28px;font-weight:800;border-radius:40px;background:var(--g);color:var(--bg);border:2px solid var(--g);display:inline-block;transition:transform .2s}
+.btn.o{background:transparent;color:var(--g)}.btn:active{transform:scale(.96)}
+.btn:focus-visible,.tabs button:focus-visible,a:focus-visible,.lang:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.lang{position:absolute;top:12px;inset-inline-end:12px;font:inherit;font-weight:800;background:transparent;color:var(--g);border:1.5px solid var(--g);border-radius:30px;padding:2px 14px;cursor:pointer}
+section{padding:52px 6%}
+.w{max-width:900px;margin:0 auto}
+h2{text-align:center;font-size:clamp(1.9rem,7vw,2.8rem);color:var(--g);margin-bottom:22px;line-height:1.3}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.feat div{background:var(--card);border:1.5px solid var(--line);padding:22px;text-align:center}
+.feat h3{font-size:1.2rem;color:var(--red);margin-bottom:2px}.feat p{font-size:.92rem}
+#menu{background:var(--card)}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 16px;justify-content:safe center;scrollbar-width:none}
+.tabs button{flex:none;font:inherit;font-weight:700;padding:7px 20px;border-radius:30px;border:1.5px solid var(--g);background:transparent;color:var(--g);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--g);color:var(--bg)}
+.cols{columns:2 320px;column-gap:44px}.grp{break-inside:avoid-column;margin-bottom:22px}
+.grp h3{font-family:Jost,Cairo;font-weight:500;font-size:1.35rem;letter-spacing:.06em;color:var(--g);border-bottom:1.5px solid var(--line);padding-bottom:2px;margin-bottom:4px}
+.it{display:flex;align-items:baseline;gap:8px;padding:4px 0;font-size:1.02rem}
+.it i{flex:1;border-bottom:1.5px dotted var(--line);transform:translateY(-4px)}
+.it b{font-family:Jost,Cairo;font-weight:500;color:var(--g)}
+.nt{font-size:.85rem;opacity:.75}
+.note{text-align:center;font-size:.85rem;opacity:.7;margin-top:8px}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;text-align:center}
+.info div{background:var(--card);border:1.5px solid var(--line);padding:22px}
+.info h3{font-size:1.2rem;color:var(--g)}
+footer{background:#6b3f2a;color:#f6efe6;text-align:center;padding:30px 6% 92px;font-size:.9rem}
+.bar{position:fixed;inset:auto 0 0 0;z-index:9;display:flex;background:#6b3f2a;border-top:2px solid var(--red);padding-bottom:env(safe-area-inset-bottom,0px)}
+.bar a{flex:1;text-align:center;padding:13px 4px;font-weight:800;color:#f6efe6}.bar a+a{border-inline-start:1px solid rgba(255,255,255,.25)}
+@media(min-width:760px){.bar{display:none}footer{padding-bottom:30px}}
+.js .rv{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+<button class="lang" id="lb" aria-label="Language">EN</button>
+<div class="logo">SHΛBΛBIK</div>
+<div class="sub">COFFEE SHOP AND RESTAURANT</div>
+<div class="wins" aria-hidden="true"><div class="wn d1"><i></i><span data-ar="صباحاً" data-en="Morning">صباحاً</span></div><div class="wn d2"><i></i><span data-ar="ظهراً" data-en="Noon">ظهراً</span></div><div class="wn d3"><i></i><span data-ar="ليلاً" data-en="Night">ليلاً</span></div></div>
+<p class="tag" data-ar="شبابيك على كل الأوقات" data-en="A window for every hour">شبابيك على كل الأوقات</p>
+<span class="badge" data-ar="مفتوح 24 ساعة" data-en="Open 24 hours">مفتوح 24 ساعة</span>
+<div class="cta"><a class="btn" href="#menu" data-ar="شوف المنيو" data-en="View menu">شوف المنيو</a><a class="btn o" href="tel:0788300301" data-ar="اتصل" data-en="Call">اتصل</a></div>
+</header>
+
+<section><div class="w rv"><h2 data-ar="شو بتلاقي عنّا" data-en="What's on offer">شو بتلاقي عنّا</h2>
+<div class="feat">
+<div><h3 data-ar="أراجيل" data-en="Huqqa">أراجيل</h3><p data-ar="21 نكهة، من 3.50 د.أ" data-en="21 flavours, from 3.50 JD"></p></div>
+<div><h3 data-ar="عصائر وسموثي" data-en="Juices &amp; smoothies">عصائر وسموثي</h3><p data-ar="عصائر طازجة وميكس وسموثي" data-en="Fresh juices, mixes and smoothies"></p></div>
+<div><h3 data-ar="مباريات على الشاشة" data-en="Matches on screen">مباريات على الشاشة</h3><p data-ar="للحجز والاستفسار: 07 8830 0301" data-en="To book or ask: 07 8830 0301"></p></div>
+</div></div></section>
+
+<section id="menu"><div class="w rv"><h2 data-ar="المنيو" data-en="Menu">المنيو</h2>
+<div class="tabs" id="tabs" role="tablist"></div>
+<div id="list" class="cols"></div>
+<p class="note" data-ar="الأسعار بالدينار الأردني" data-en="Prices in Jordanian dinars (JD)"></p></div></section>
+
+<section><div class="w rv"><h2 data-ar="وين نحن" data-en="Find us">وين نحن</h2>
+<div class="info">
+<div><h3 data-ar="العنوان" data-en="Address">العنوان</h3><p data-ar="البوابة الشمالية للجامعة الأردنية، مقابل باركينغ التربية، شارع أحمد الطراونة، إشارات حضرموت" data-en="North Gate of the University of Jordan, opposite Education parking, Ahmad Al-Tarawneh St., Hadramout signals"></p></div>
+<div><h3 data-ar="اتصل" data-en="Call">اتصل</h3><p dir="ltr">07 8830 0301</p></div>
+<div><h3>Instagram</h3><p><a href="https://instagram.com/shababikju" target="_blank" rel="noopener">@shababikju</a></p></div>
+</div></div></section>
+
+<footer><b class="logo" style="font-size:1.6rem;color:#f6efe6">SHΛBΛBIK</b><br><span style="opacity:.65" data-ar="تصميم تجريبي" data-en="Concept design">تصميم تجريبي</span></footer>
+<div class="bar"><a href="tel:0788300301" data-ar="اتصال" data-en="Call">اتصال</a><a href="https://instagram.com/shababikju" data-ar="انستغرام" data-en="Instagram">انستغرام</a><a href="#menu" data-ar="المنيو" data-en="Menu">المنيو</a></div>
+
+<script>
+document.documentElement.classList.add('js');
+const D={
+hq:{l:["أراجيل","Huqqa"],g:[["أراجيل","Huqqa",["تفاحتين نخلة / فاخر|4.50","تفاحتين مزايا / بحريني|3.50","مكس تفاحتين|4.00","سبيشال ليمون ونعنع|4.50","ليمون ونعنع|3.50","بطيخ ونعنع|3.50","منجا|3.50","علكه سهم|3.50","علكة ونعنع|3.50","علكة وقرفة|3.50","عنب|3.50","عنب ونعنع|3.50","كاندي|3.50","بلومست|3.50","عنب وتوت|3.50","روبي كراش|3.50","شمام|3.50","لف|3.50","مستكه|3.50","بوملي مثلج|4.50","كييف / فواكه|3.50"]],["إضافات","Additions",["اضافة راس مزايا|2.00","اضافة راس نخلة / فاخر|2.50","اضافة ثلج ارجيلة|0.50"]]]},
+hot:{l:["ساخن","Hot"],g:[["مشروبات ساخنة","Hot Drinks",["Espresso|1.50","Double Espresso|2.00","Cafe Americano|2.25","Cafe Latte|2.50","Spanish Latte|3.00","Cappuccino|2.50","White Mocha|3.00","Mocha|3.00","Cinnamon with Mocha|3.00","Mix Mocha|3.00","Hot Chocolate|2.50","Nescafe|2.00","Turkish Coffee|1.50","Double Turkish Coffee|2.00","Macchiato|2.50","French Coffee|3.00","Snickers Coffee|3.00","Flat White|2.50"]],["شاي","Tea Drinks",["Karak|2.50","Red Tea with Milk|2.00","Zanjabel (Lemon + Honey)|2.00","Red / Green Tea|1.50","Zhorat|1.50"]]]},
+cold:{l:["بارد","Cold"],g:[["مشروبات باردة","Cold Drinks",["Shababik Caramel Frappee|4.00","Caramel Frappe|3.50","Iced Spanish Latte|3.00","Iced Latte Lotus|3.25","Iced White Mocha|3.00","Iced Dark Mocha|3.00","Iced Latte|2.50","Iced Caramel Macchiato|3.00","Iced Coffee Americano|2.25","Iced Tea|2.00","Mojito (Energy Drink with Flavors)|3.50","Mojito (Seven with Flavors)|2.50","Added Flavour (Vanilla, Caramel, Hazelnut)|0.50","Lemon Slices|0.50"]],["مشروبات غازية","Soft Drinks",["Soft Drinks|1.50","Redbull|3.00","Boom Boom|2.50","BM / Codered / XL|2.50","Barbican|1.75","Water|0.50"]]]},
+jc:{l:["عصائر","Juices"],g:[["عصائر طازجة","Fresh Juices",["Orange|2.75","Mango|3.00","Strawberry|2.00","Lemon|2.50","Lemon with Mint|2.50"]],["ميكس","Mix Juices",["Shababik Cocktail|4.00","Cocktail|3.00","Banana and Milk|2.00","Strawberry and Milk|2.00","Banana and Strawberry|2.50","Orange with Banana|3.00","Orange with Pineapple|3.00","Avocado Mix|4.00","Pina Colada|3.00","Kiwi Mango|3.00","Kiwi Lemon|3.00","Kiwi Strawberry|3.00","Mango + Strawberry|3.00"]],["سموثي","Smoothie",["Pineapple|3.00","Passion Fruit|2.50","Passion Fruit + Mango|3.00","Passion Fruit + Lemon|3.00","Peach|2.50","Mixed Berry|2.50","Blueberry Mint|2.50"]]]},
+sw:{l:["حلويات وشيك","Sweets & Shakes"],g:[["آيس كريم","Ice Cream",["Chocolate|2.25","Vanilla|2.25","Strawberry|2.25","Snickers|2.75","Lotus|2.75","Arabic Icecream|2.75","Oreo|2.75","Cheesecake|2.75","Mango|2.25","Blueberry|2.25","Krokan Icecream|2.75"]],["ميلك شيك","Milk Shakes",["Shababik Milkshake|4.00","Vanilla Milkshake|2.50","Chocolate Milkshake|2.50","Oreo Milkshake|3.00","Snickers Milkshake|3.00","Lotus Milkshake|3.00","Arabic Icecream Milkshake|3.00","Cheesecake Milkshake|3.00","Strawberry Milkshake|2.50","Krokan Milkshake|3.00"]],["حلويات","Dessert / Sweets",["Waffle|4.00","Banana Boat|3.50"]]]}};
+let L='ar',K='hq';const T=document.getElementById('tabs'),M=document.getElementById('list'),i=()=>L=='ar'?0:1;
+function draw(){T.innerHTML='';Object.keys(D).forEach(k=>{const b=document.createElement('button');b.textContent=D[k].l[i()];b.role='tab';b.setAttribute('aria-selected',k===K);b.onclick=()=>{K=k;draw()};T.append(b)});
+M.innerHTML=D[K].g.map(g=>`<div class="grp"><h3>${g[i()]}</h3>${g[2].map(s=>{const[a,p]=s.split('|');return`<div class="it"><span>${a}</span><i></i><b>${p}</b></div>`}).join('')}</div>`).join('')}
+function setL(l){L=l;const h=document.documentElement;h.lang=l;h.dir=l=='ar'?'rtl':'ltr';document.querySelectorAll('[data-ar]').forEach(e=>e.textContent=e.dataset[l]);document.getElementById('lb').textContent=l=='ar'?'EN':'عربي';draw()}
+document.getElementById('lb').onclick=()=>setL(L=='ar'?'en':'ar');
+setL('ar');
+const io=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('in')),{threshold:.1});document.querySelectorAll('.rv').forEach(n=>io.observe(n));
+</script>
+</body>
+</html>
